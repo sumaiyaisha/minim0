@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: playfair display, serif;
+	color: #626262;
+}
+/*header start*/
+header{}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 11%;
+	float: left;
+	margin-top: 25px;
+}
+
+.logo img{
+      width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 35px 50px;
+	text-transform: uppercase;
+	color: #626262;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+
+}
+.menu ul li a:hover{
+	color: #000000;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.banner_content{}
+.banner_content img{
+	width: 100%;
+}
+/*banner end*/
+
+/*artical start*/
+.artical{
+	padding: 60px 0;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.common_artical{}
+.common_artical h1{
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.common_artical p{
+	font-size: 14px;
+	line-height: 1.5;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+}
+.common_link{
+	font-family: 'ubuntu', sans-serif;
+	font-size: 14px;
+	margin-top: 45px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+/*artical end*/
+
+/*blog start*/
+.blog{}
+.single{
+	width: 47%;
+	float: left;
+	padding: 50px 0;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.single h1{
+	font-weight: 400;
+	font-size: 30px;
+	margin: 20px 0;
+}
+.single p:last-child {
+		font-size: 14px;
+		line-height: 1.5;
+}
+/*blog end*/
+
+/*newslwtter start*/
+.newsletter{
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+.container4{
+	width: 60%;
+	margin: 0 auto;
+}
+.signup{
+	text-align: center;
+}
+.signup h1{
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+.for_form{
+	width: 350px;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.for_form input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	width: 290px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 60px;
+}
+.for_form button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 10px;
+	right: 0;
+
+}
+.for_form button img{
+
+}
+/*newslwtter end*/
+/*blog2 start*/
+.blog2{
+    padding: 90px 0;
+}
+
+/*blog2 end*/
+
+/*button start*/
+.btn{}
+.container3{
+	text-align: center;
+}
+.container3 button{
+	padding: 30px 70px;
+	font-size: 24px;
+	border: none;
+	border: 1px solid #626262;
+	background: transparent;
+	transition: .5s;
+}
+.container3 button:hover{
+	color: white;
+	background-color: #626262;
+	border: 1px solid white;
+}
+/*button end*/
+
+/* footer start*/
+.footer{
+    background-color: #f0f0f0;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+.pages {
+    float: left;
+    margin: 0 auto;
+}
+.pages ul {
+    list-style: none;
+} 
+.pages ul li {
+    float: left;
+}
+
+.pages ul li a {
+    display: inline-block;
+    margin: 0px 10px;
+    color: #000000;
+    text-decoration: none;
+}
+.links{
+	float: right;
+	margin: 0 auto;
+}
+.links ul{
+	list-style: none;
+	float: right;
+	
+}
+.links ul li{
+	float:left;
+	
+}
+.links ul li:first-child{
+    margin-right: 20px;
+	color:#000000 ;
+}
+.links ul li a{
+	display: inline-block;
+	margin: 0 20px;
+	color: #000000;
+}
+.links ul li a img{
+	width: 15px;
+}
+
+/* footer end*/
